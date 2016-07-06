@@ -1,43 +1,54 @@
+#startGame {
+  margin: 20px;
+  text-align: center;
+}
+
 
 .container{
-  height: 340px;
-  width: 340px;
+  height: 380px;
+  width: 380px;
   background-color: white;
-  margin: 40px 0 0 0;
+  margin: auto;
   position: relative;
+
 }
 
 .box{
   display: inline-block;
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
   background: #b3e6ff;
   border: 1px solid grey;
   border-radius: 20px;
   text-align: center;
-  padding:9px;
+  padding:18px 9px 9px 9px;
   margin:3px;
   position: relative;
-  font-size: 50px;
-
+  font-size: 60px;
+  vertical-align:top;   /* prevent box shifting when logotext is inserted */
 }
 
 
 
 .button{
-
  display: block;
  height: 40px;
  width: 180px;
  background: #adcbd4;
  border: 1px solid grey;
+ margin: auto;
+
+
  color: black;
  text-align: center;
  text-decoration: none;
  font-size: 30px;
+
+
  background: linear-gradient(top, #34696f, #2f5f63);
  border-radius: 20px;
  box-shadow: 0 3px 0 #1b383b;
+
 }
 
 a:hover {
@@ -46,4 +57,25 @@ a:hover {
 
 .box:hover{
   background-color: #3d7a80;
+}
+
+
+/*responsive design*/
+
+@media only screen and (max-width: 640px) {
+
+.container{
+  display: block;
+  width: 95%;
+}
+
+.box{
+  display: inline-block;
+  width: 23%;
+}
+
+#startGame {
+  text-align: center;
+}
+
 }
