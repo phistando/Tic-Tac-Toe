@@ -58,12 +58,12 @@ clickBox9.addEventListener('click',function(){ playerMoveBox9(); });
 
 function playerMoveBox1() {
 
-  if (clickBox1.innerHTML =="+" && player === 1){
+  if (clickBox1.innerHTML =="" && player === 1){
     clickBox1.innerHTML = "X";
     document.getElementById("startGame").innerHTML = ("O's turn!");
     player = 2;
   }
-  else if (clickBox1.innerHTML=="+" && player === 2){
+  else if (clickBox1.innerHTML=="" && player === 2){
       clickBox1.innerHTML = "O";
       document.getElementById("startGame").innerHTML = ("X's turn!");
       player = 1;
@@ -75,13 +75,13 @@ function playerMoveBox1() {
 }
 
 function playerMoveBox2() {
-  if (clickBox2.innerHTML =="+" && player === 1){
+  if (clickBox2.innerHTML =="" && player === 1){
     clickBox2.innerHTML = "X";
     document.getElementById("startGame").innerHTML = ("O's turn!");
     player = 2;
 
   }
-  else if (clickBox2.innerHTML =="+" && player === 2){
+  else if (clickBox2.innerHTML =="" && player === 2){
       clickBox2.innerHTML = "O";
       document.getElementById("startGame").innerHTML = ("X's turn!");
       player = 1;
@@ -93,13 +93,13 @@ function playerMoveBox2() {
 }
 
 function playerMoveBox3() {
-  if (clickBox3.innerHTML =="+" && player === 1){
+  if (clickBox3.innerHTML =="" && player === 1){
     clickBox3.innerHTML = "X";
     document.getElementById("startGame").innerHTML = ("O's turn!");
     player = 2;
 
   }
-  else if (clickBox3.innerHTML =="+" && player === 2){
+  else if (clickBox3.innerHTML =="" && player === 2){
       clickBox3.innerHTML = "O";
       document.getElementById("startGame").innerHTML = ("X's turn!");
       player = 1;
@@ -112,13 +112,13 @@ function playerMoveBox3() {
 
 
 function playerMoveBox4() {
-  if (clickBox4.innerHTML =="+" && player === 1){
+  if (clickBox4.innerHTML =="" && player === 1){
     clickBox4.innerHTML = "X";
     document.getElementById("startGame").innerHTML = ("O's turn!");
     player = 2;
 
   }
-  else if (clickBox4.innerHTML =="+" && player === 2){
+  else if (clickBox4.innerHTML =="" && player === 2){
       clickBox4.innerHTML = "O";
       document.getElementById("startGame").innerHTML = ("X's turn!");
       player = 1;
@@ -131,13 +131,13 @@ function playerMoveBox4() {
 
 
 function playerMoveBox5() {
-  if (clickBox5.innerHTML =="+" && player === 1){
+  if (clickBox5.innerHTML =="" && player === 1){
     clickBox5.innerHTML = "X";
     document.getElementById("startGame").innerHTML = ("O's turn!");
     player = 2;
 
   }
-  else if (clickBox5.innerHTML =="+" && player === 2){
+  else if (clickBox5.innerHTML =="" && player === 2){
       clickBox5.innerHTML = "O";
       document.getElementById("startGame").innerHTML = ("X's turn!");
       player = 1;
@@ -150,13 +150,13 @@ function playerMoveBox5() {
 
 
 function playerMoveBox6() {
-  if (clickBox6.innerHTML =="+" && player === 1){
+  if (clickBox6.innerHTML =="" && player === 1){
     clickBox6.innerHTML = "X";
     document.getElementById("startGame").innerHTML = ("O's turn!");
     player = 2;
 
   }
-  else if (clickBox6.innerHTML =="+" && player === 2){
+  else if (clickBox6.innerHTML =="" && player === 2){
       clickBox6.innerHTML = "O";
       document.getElementById("startGame").innerHTML = ("X's turn!");
       player = 1;
@@ -169,13 +169,13 @@ function playerMoveBox6() {
 
 
 function playerMoveBox7() {
-  if (clickBox7.innerHTML =="+" && player === 1){
+  if (clickBox7.innerHTML =="" && player === 1){
     clickBox7.innerHTML = "X";
     document.getElementById("startGame").innerHTML = ("O's turn!");
     player = 2;
 
   }
-  else if (clickBox7.innerHTML =="+" && player === 2){
+  else if (clickBox7.innerHTML =="" && player === 2){
       clickBox7.innerHTML = "O";
       document.getElementById("startGame").innerHTML = ("X's turn!");
       player = 1;
@@ -189,13 +189,13 @@ function playerMoveBox7() {
 
 
 function playerMoveBox8() {
-  if (clickBox8.innerHTML =="+" && player === 1){
+  if (clickBox8.innerHTML =="" && player === 1){
     clickBox8.innerHTML = "X";
     document.getElementById("startGame").innerHTML = ("O's turn!");
     player = 2;
 
   }
-  else if (clickBox8.innerHTML =="+" && player === 2){
+  else if (clickBox8.innerHTML =="" && player === 2){
       clickBox8.innerHTML = "O";
       document.getElementById("startGame").innerHTML = ("X's turn!");
       player = 1;
@@ -209,13 +209,13 @@ function playerMoveBox8() {
 
 
 function playerMoveBox9() {
-  if (clickBox9.innerHTML =="+" && player === 1){
+  if (clickBox9.innerHTML =="" && player === 1){
     clickBox9.innerHTML = "X";
     document.getElementById("startGame").innerHTML = ("O's turn!");
     player = 2;
 
   }
-  else if (clickBox9.innerHTML =="+" && player === 2){
+  else if (clickBox9.innerHTML =="" && player === 2){
       clickBox9.innerHTML = "O";
       document.getElementById("startGame").innerHTML = ("X's turn!");
       player = 1;
